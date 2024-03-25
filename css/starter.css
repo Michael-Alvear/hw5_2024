@@ -216,6 +216,7 @@ header{
   /* Step 12: Edit the css for the pricing and card classes to match our example. Part of achieving this is by using a flex-property to specify a “size” of 275px. Notice that the elements do not have the same height, but do have the same width. */
   .pricing{
     flex-direction: row;
+    justify-content: center;
   }
   .card{
     flex-basis: 275px;
